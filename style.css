@@ -1,0 +1,34 @@
+#variant-container::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;  
+    opacity: .4; 
+    background: url("wallpaper.jpg");
+    background-size:100%;
+}
+
+#default-variant-container::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;  
+    opacity: .4; 
+    background: url("wallpaper.jpg");
+    background-size:100%;
+}
+
+/* @font-face {
+    font-family: FoxJumps;
+    src: url("FoxJumps.otf") format("opentype");
+}
+
+.Player[data-player-id="1197366"]:first-child {
+    color: orange;
+    font-family: FoxJumps;
+    font-size: 22pt;
+} */
