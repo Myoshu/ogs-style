@@ -47,6 +47,14 @@ body {
     visibility: hidden;
 }
 
-#main-content {
+/* #main-content {
+    background: linear-gradient(rgba(26, 26, 26, 0.4), transparent) !important;
+} */
+
+.body.dark #main-content {
+    background-color: linear-gradient(rgba(26, 26, 26, 1), transparent) !important;
+}
+
+#variant-container, #default-variant-container {
     background: transparent !important;
 }
