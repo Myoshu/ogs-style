@@ -46,3 +46,7 @@ body {
 .Card:has(.about-container) {
     visibility: hidden;
 }
+
+#main-content {
+    background: transparent !important;
+}
